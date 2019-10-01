@@ -12,8 +12,35 @@ namespace CSharpClass
             //Console.WriteLine("Hello World!");
             //MyLesson5Examples();
             //MyLesson6Examples();
-            MyLesson7Examples();
+            //MyLesson7Examples();
+           //MyLesson8Examples();
+           MyOtherLesson8Examples();
         } // End Method Main
+
+        static void MyOtherLesson8Examples()
+        {
+            Lesson8 myLesson8 = new Lesson8();
+            myLesson8.BasicWhileLoop();
+            myLesson8.BasicDoWhileLoopExample();
+            myLesson8.BasicForLoopExample(5);
+            myLesson8.BasicForEachLoopExample();
+            Console.WriteLine(myLesson8.BasicJumpStatementExample("Sunday"));
+            myLesson8.BasicOtherJumpStatements();
+
+        } // end method my other lesson 8 examples
+
+        static void MyLesson8Examples()
+        {
+            Lesson8 myEight = new Lesson8();
+            myEight.BasicIfStatement();
+            myEight.BasicIfElseExample();
+            myEight.BasicIfElseChainExample();
+            Console.WriteLine(myEight.BasicAndConditionExample());
+            Console.WriteLine(myEight.BasicOrConditionExample(24));
+            myEight.BasicTernaryOperatorExample(42);
+            myEight.BasicSwitchExample(3); 
+
+        } // end method my lesson 8 examples
 
         static void MyLesson7Examples()
         {
