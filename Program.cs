@@ -1,5 +1,6 @@
 ﻿using System;
 using CSharpClass.Lessons;
+using CSharpClass.Labs;
 
 namespace CSharpClass
 {
@@ -21,9 +22,27 @@ namespace CSharpClass
            //MyBeerSong();
            //MyLesson12Examples();
            //MyOtherLesson12Examples();
-           MyOtherLesson12Examples2();
+           //MyOtherLesson12Examples2();
+           //MyHorse();
+           MyLab2();
         } // End Method Main
 
+        static void MyLab2()
+        {
+            Counting myLab2 = new Counting();
+            myLab2.MyLab2();
+
+        } // end method my lab 2
+
+        static void MyHorse()
+        {
+            Horse myHorse = new Pony();
+            myHorse.Racing();
+
+            Pony myPony = new Pony();
+            myPony.Racing();
+
+        }
         static void MyOtherLesson12Examples2()
         {
             CarStereo myCarStereo = new CarStereo();
