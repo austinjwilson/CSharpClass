@@ -5,8 +5,18 @@ namespace CSharpClass
 {
     public class Sandals : Shoes
     {
-        string _straps;
+        //string _straps;
     
+        public Sandals()
+            : this("leather") {}
+
+        public Sandals(string straps)
+        {
+            Straps = straps;
+        }
+
+        public string Straps { get; set; }
+
         public void Protects()
         {
 

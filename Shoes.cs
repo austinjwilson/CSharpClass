@@ -5,10 +5,16 @@ namespace CSharpClass
 {
     public class Shoes
     {
-        int _laces;
-        string _eyelets;
-        string _soles;
-         
+        //int  _eyelets;
+        //string _laces;
+        //string _soles;
+
+        public int Eyelets { get; set; }
+
+        public string Laces { get; set; }
+
+        public string Soles { get; private set; }
+
         public virtual void ShoesWorn()
         {
             Console.WriteLine("These shoes are worn");

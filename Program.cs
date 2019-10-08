@@ -24,8 +24,17 @@ namespace CSharpClass
            //MyOtherLesson12Examples();
            //MyOtherLesson12Examples2();
            //MyHorse();
-           MyLab2();
+           //MyLab2();
+           MyLesson13House();
         } // End Method Main
+
+        static void MyLesson13House()
+        {
+            House myHouse = new House(36, "granite");
+            Console.WriteLine(myHouse.DoorColor);
+            myHouse.RoofType = "Steel";
+            myHouse.DoorOpenClose();
+        }
 
         static void MyLab2()
         {
