@@ -26,8 +26,23 @@ namespace CSharpClass
            //MyHorse();
            //MyLab2();
            //MyLesson13House();
-           MyLesson14Examples();
+           //MyLesson14Examples();
+           MyLesson15Examples();
         } // End Method Main
+
+        static void MyLesson15Examples()
+        {
+            Lesson15 my15 = new Lesson15();
+            my15.CheckExternalEnum();
+            my15.MyFavoriteFlavor(Lesson15.IceCreamFlavors.Vanilla);
+            
+            my15[2] = 17;
+            for (int i = 0; i < my15.ConeArrayLength; i++)
+            {
+                Console.WriteLine("Value of {0} = {1}", i, my15[i]);                
+            }
+
+        }
 
         
         
