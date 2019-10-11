@@ -1,6 +1,7 @@
 ﻿using System;
 using CSharpClass.Lessons;
 using CSharpClass.Labs;
+using CSharpClass.Lab3;
 
 namespace CSharpClass
 {
@@ -28,8 +29,22 @@ namespace CSharpClass
            //MyLesson13House();
            //MyLesson14Examples();
            //MyLesson15Examples();
-           MyLesson16Examples();
+           //MyLesson16Examples();
+           //Televison();
+           FourKTelevison();
         } // End Method Main
+
+        static void Televison()
+        {
+            HDTelevison myTelevision = new HDTelevison(4, 525.0m);
+            myTelevision.TurnOn();
+        }
+
+        static void FourKTelevison()
+        {
+            FourKTelevison myTelevision = new FourKTelevison(2, 350.0m);
+            myTelevision.TurnOn();
+        }
 
         static void MyLesson16Examples()
         {
